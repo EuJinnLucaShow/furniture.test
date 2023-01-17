@@ -1,0 +1,119 @@
+body {
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Убираем внешние отступы и внутренние*/
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Элементы a сбрасываем до дефолтных стилей */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  padding-left: 51px;
+  padding-right: 51px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(30, 46, 54, 1);
+}
+
+.social {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.social__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #1e2e36;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.phone__icon {
+  padding-right: 5px;
+}
+
+.phone__stroke {
+  padding-left: 5px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  /* color4 */
+
+  color: #1e2e36;
+}
+
+.header__item:not(:last-child) {
+  padding-right: 15px;
+}

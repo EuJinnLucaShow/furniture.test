@@ -6,41 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="social">
-            <ul>
-                <li>Ми в соціальних мережах:</li>
-                <li><a href="https://telegram.org/"></a>telegram</li>
-                <li><a href="https://www.facebook.com/"></a>facebook</li>
-                <li><a href="https://www.instagram.com/"></a>instagram</li>
-            </ul>
+    <header class="container">
+        <div class="header__top">
+            <div class="social">
+                <p class="social__title">Ми в соціальних мережах:</p>
+                <ul class="social__list">
+                    <li class="social__link"><a href="https://telegram.org/"></a><svg class="social__icon" width="21.75"
+                            height="18.24">
+                            <use xlink:href="./image/svg-sprite.svg#icon-telegram"></use>
+                        </svg></li>
+                    <li class="social__link"><a href="https://www.facebook.com/"></a><svg class="social__icon"
+                            width="10.15" height="21.76">
+                            <use xlink:href="./image/svg-sprite.svg#icon-facebook"></use>
+                        </svg></li>
+                    <li class="social__link"><a href="https://www.instagram.com/"></a><svg class="social__icon"
+                            width="21.33" height="21.33">
+                            <use xlink:href="./image/svg-sprite.svg#icon-instagram"></use>
+                        </svg></li>
+                </ul>
 
-            <a href="tel:+380991112233">(099) 111 22 33</a>
+                <a class="phone" href="tel:+380991112233"><svg class="phone__icon" width="24" height="24">
+                        <use xlink:href="./image/svg-sprite.svg#icon-smartphone"></use>
+                    </svg>(099) 111 22 33<svg class="phone__stroke" width="7.5" height="13.5">
+                        <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                    </svg></a>
+            </div>
+
+            <div class="">
+                <ul class="header__nav">
+                    <li class="header__item">Головна</li>
+                    <li class="header__item">АкцІї</li>
+                    <li class="header__item">Доставка та оплата</li>
+                    <li class="header__item">про нас</li>
+                    <li class="header__item">контакти</li>
+                </ul>
+            </div>
         </div>
 
         <div>
-            <ul>
-                <li>Головна</li>
-                <li>АкцІї</li>
-                <li>Доставка та оплата</li>
-                <li>про нас</li>
-                <li>контакти</li>
-            </ul>
-        </div>
-
-        <div>
-
             <div>
-                <ul>
-                    <li>Дивани</li>
-                    <li>ліжка</li>
-                    <li>Крісла</li>
-                    <li>комоди</li>
-                    <li>шафи</li>
-                    <li>Кухня</li>
+                <ul class="products-lisе">
+                    <li class="products-item">Дивани</li>
+                    <li class="products-item">ліжка</li>
+                    <li class="products-item">Крісла</li>
+                    <li class="products-item">комоди</li>
+                    <li class="products-item">шафи</li>
+                    <li class="products-item">Кухня</li>
                 </ul>
             </div>
 
@@ -51,7 +71,7 @@
             <div>
                 <ul>
                     <li>Кошик</li>
-                    <li><button class="button">Замовити дзвінок</button></li>
+                    <li><button type="button" class="button">Замовити дзвінок</button></li>
                 </ul>
             </div>
 
@@ -65,7 +85,7 @@
                 <h2>Новинка!</h2>
                 <h3>Ліжко Ornella</h3>
                 <p>Це новий рівень комфортного сну</p>
-                <button class="button">Детальніше</button>
+                <button type="button" class="button">Детальніше</button>
             </div>
         </section>
 
@@ -98,10 +118,107 @@
                 </ul>
             </div>
 
-
+            <div>
+                <ul>
+                    <li>
+                        <p>Ліжко Рамона</p>
+                        <p>8 999 грн</p>
+                    </li>
+                    <li>
+                        <p>Ліжко Честер</p>
+                        <p>8 999 грн</p>
+                        <p>8 999 грн</p>
+                    </li>
+                    <li>
+                        <p>Ліжко Венеція люкс</p>
+                        <p>8 999 грн</p>
+                    </li>
+                    <li>
+                        <p>Ліжко Імперія</p>
+                        <p>8 999 грн</p>
+                    </li>
+                    <li>
+                        <p>Ліжко Адель</p>
+                        <p>8 999 грн</p>
+                    </li>
+                    <li>
+                        <p>Ліжко Атлант</p>
+                        <p>8 999 грн</p>
+                        <p>8 999 грн</p>
+                    </li>
+                </ul>
+            </div>
+            <button type="button">В каталог</button>
         </section>
 
+        <section>
+            <h2>Про нас</h2>
+            <p>"Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure
+            </p>
+            <img src="" alt="">
+        </section>
+
+        <section>
+            <h2>Залишились питання?</h2>
+            <img src="" alt="">
+            <form action=""></form>
+        </section>
     </main>
+    <footer>
+        <p><span>F</span>urniture.test</p>
+        <ul>
+            <li>— Дивани</li>
+            <li>— ліжка</li>
+            <li>— Крісла</li>
+            <li>— шафи</li>
+            <li>— Кухні</li>
+            <li>— комоди</li>
+        </ul>
+        <ul>
+            <li>— АкцІї</li>
+            <li>— Доставка та оплата</li>
+            <li>— про нас</li>
+            <li>— контакти</li>
+        </ul>
+
+        <div>
+            <p>С 8.00 до 20.00 каждый день</p>
+        </div>
+        <div>
+            <p>С 8.00 до 20.00 каждый день</p>
+        </div>
+        <div>
+            <a href="tel:+380991112233">(099) 111 22 33</a>
+            <a href="tel:+380992223344">(099) 222 33 44</a>
+        </div>
+        <ul>
+            <li>Ми в соціальних мережах:</li>
+            <li><a href="https://telegram.org/"></a>telegram</li>
+            <li><a href="https://www.facebook.com/"></a>facebook</li>
+            <li><a href="https://www.instagram.com/"></a>instagram</li>
+        </ul>
+        <p>© ТОВ Furniture, працюємо з 2006 року</p>
+        <p>Глянець — розробка інтернет-магазинів</p>
+    </footer>
 </body>
 
 </html>
