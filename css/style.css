@@ -86,13 +86,24 @@ img {
   display: flex;
   align-items: center;
   margin-left: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  /* color4 */
+
+  color: #1e2e36;
 }
 
 .phone__icon {
   padding-right: 5px;
 }
 
-.phone__stroke {
+.stroke {
   padding-left: 5px;
 }
 
@@ -117,3 +128,112 @@ img {
 .header__item:not(:last-child) {
   padding-right: 15px;
 }
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-list {
+  display: flex;
+}
+
+.products-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 125%;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  /* color4 */
+
+  color: #1e2e36;
+}
+
+.products-item:not(:last-child) {
+  padding-right: 15px;
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  /* identical to box height, or 45px */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header__title-span {
+  color: #44c697;
+}
+
+.title-icon {
+  padding-right: 15px;
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: center;
+}
+
+.icon-shopping {
+  margin-right: 5px;
+}
+
+.shopping-cart__tray {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  /* color4 */
+
+  color: #1e2e36;
+}
+
+.button {
+  width: 278px;
+  height: 51px;
+
+  border: none;
+  background: #44c697;
+  border-radius: 3px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.basket__item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 125%;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  /* color4 */
+
+  color: #1e2e36;
+}
+
+/* .hero {
+  background-image: url(../image/hero.jpg);
+  height: 785px;
+} */

@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header class="container">
-        <div class="header__top">
+    <header class="">
+        <div class="container header__top">
             <div class="social">
                 <p class="social__title">Ми в соціальних мережах:</p>
                 <ul class="social__list">
@@ -35,8 +35,8 @@
                 </ul>
 
                 <a class="phone" href="tel:+380991112233"><svg class="phone__icon" width="24" height="24">
-                        <use xlink:href="./image/svg-sprite.svg#icon-smartphone"></use>
-                    </svg>(099) 111 22 33<svg class="phone__stroke" width="7.5" height="13.5">
+                        <use xlink:href="./image/svg-sprite.svg#smartphone"></use>
+                    </svg>(099) 111 22 33<svg class="stroke" width="7.5" height="13.5">
                         <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
                     </svg></a>
             </div>
@@ -52,36 +52,54 @@
             </div>
         </div>
 
-        <div>
+        <div class="container header__bottom">
+
             <div>
-                <ul class="products-lisе">
-                    <li class="products-item">Дивани</li>
-                    <li class="products-item">ліжка</li>
-                    <li class="products-item">Крісла</li>
-                    <li class="products-item">комоди</li>
-                    <li class="products-item">шафи</li>
-                    <li class="products-item">Кухня</li>
+                <ul class="products-list">
+                    <li class="products-item">Дивани<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
+                    <li class="products-item">ліжка<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
+                    <li class="products-item">Крісла<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
+                    <li class="products-item">комоди<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
+                    <li class="products-item">шафи<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
+                    <li class="products-item">Кухня<svg class="stroke" width="7.5" height="13.5">
+                            <use xlink:href="./image/svg-sprite.svg#icon-vector--stroke"></use>
+                        </svg></li>
                 </ul>
             </div>
 
-            <div>
-                <h1><span>F</span>urniture.test</h1>
-            </div>
 
             <div>
-                <ul>
-                    <li>Кошик</li>
-                    <li><button type="button" class="button">Замовити дзвінок</button></li>
-                </ul>
+                <h1 class="header__title"><svg class="title-icon" width="125" height="75">
+                        <use xlink:href="./image/svg-sprite.svg#icon-OBJECTS"></use>
+                    </svg><span class="header__title-span">F</span>urniture.test</h1>
+            </div>
+
+            <div class="shopping-cart">
+                <p class="shopping-cart__tray"><svg class="icon-shopping" width="30" height="30">
+                        <use xlink:href="./image/svg-sprite.svg#icon-shopping-cart"></use>
+                    </svg>Кошик</p>
+                <button type="button" class="button">Замовити дзвінок</button>
             </div>
 
         </div>
+
     </header>
 
     <main>
 
-        <section class="hero">
+        <section class="container hero">
             <div>
+                <img src="./image/hero.jpg" alt="">
                 <h2>Новинка!</h2>
                 <h3>Ліжко Ornella</h3>
                 <p>Це новий рівень комфортного сну</p>
@@ -89,7 +107,7 @@
             </div>
         </section>
 
-        <section class="our-advantages">
+        <section class="container our-advantages">
             <h2>Наші переваги</h2>
             <ul>
                 <li>
@@ -105,7 +123,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="container">
             <h2>Категорії товарів</h2>
             <div>
                 <ul>
@@ -148,10 +166,10 @@
                     </li>
                 </ul>
             </div>
-            <button type="button">В каталог</button>
+            <button type="button" class="button">В каталог</button>
         </section>
 
-        <section>
+        <section class="container">
             <h2>Про нас</h2>
             <p>"Furniture" – "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et
@@ -177,7 +195,7 @@
             <img src="" alt="">
         </section>
 
-        <section>
+        <section class="container">
             <h2>Залишились питання?</h2>
             <img src="" alt="">
             <form action=""></form>
