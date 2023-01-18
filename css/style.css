@@ -1,6 +1,7 @@
 body {
   background: #ffffff;
   font-family: "Montserrat", sans-serif;
+  font-style: normal;
 }
 
 /* Убираем внешние отступы и внутренние*/
@@ -64,7 +65,6 @@ img {
 }
 
 .social__title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
@@ -89,7 +89,6 @@ img {
   display: flex;
   align-items: center;
   margin-left: 50px;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
@@ -110,7 +109,6 @@ img {
 }
 
 .header__item {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
@@ -133,12 +131,9 @@ img {
 }
 
 .products-item {
-  font-style: normal;
   font-weight: 700;
   font-size: 15px;
-  line-height: 125%;
-  /* identical to box height, or 22px */
-
+  line-height: 1.22;
   text-transform: uppercase;
   color: #1e2e36;
 }
@@ -150,7 +145,6 @@ img {
 .header__title {
   display: flex;
   align-items: center;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.25;
@@ -194,7 +188,6 @@ img {
   background: #44c697;
   border-radius: 3px;
 
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.6;
@@ -204,7 +197,6 @@ img {
 }
 
 .basket__item {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.22;
@@ -218,9 +210,81 @@ img {
 }
 
 .slider {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 462px;
   height: 670px;
   margin-left: 51px;
   background: #ffffff;
+}
+
+.slider-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.56;
+  color: #1e2e36;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.slider-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  /* identical to box height, or 45px */
+
+  /* color4 */
+
+  color: #1e2e36;
+  margin-bottom: 10px;
+}
+
+.slider-text {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 125%;
+  /* or 45px */
+
+  text-align: center;
+
+  /* color4 */
+
+  color: #1e2e36;
+  margin-bottom: 40px;
+}
+
+.slider-btn {
+  width: 209px;
+  height: 51px;
+  left: 178px;
+  top: 553px;
+
+  /* color3 */
+
+  background: #44c697;
+  border-radius: 3px;
+  margin-bottom: 52px;
+}
+
+.control {
+  display: flex;
+  align-items: baseline;
+}
+
+.cont1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  /* identical to box height, or 45px */
+  color: #1e2e36;
+}
+
+.cont2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+  text-transform: uppercase;
+  color: #1e2e36;
 }
