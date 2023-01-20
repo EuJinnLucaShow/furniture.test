@@ -206,6 +206,7 @@ img {
 
 .hero {
   height: 785px;
+  margin-bottom: 100px;
   background-image: url(../image/hero.jpg);
 }
 
@@ -217,6 +218,7 @@ img {
   height: 670px;
   margin-left: 51px;
   background: #ffffff;
+  border-left: 15px solid #44c697;
 }
 
 .slider-title {
@@ -287,4 +289,90 @@ img {
   /* identical to box height, or 30px */
   text-transform: uppercase;
   color: #1e2e36;
+}
+
+.slider__arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.slider__arrow {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1e2e36;
+  border-radius: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider__arrow-right {
+  background-color: black;
+}
+
+.our-advantages__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  /* identical to box height, or 60px */
+
+  text-align: center;
+
+  /* color4 */
+
+  color: #1e2e36;
+  margin-bottom: 52px;
+}
+
+.our-advantages__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.our-advantages__item {
+  width: 586px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.item-mebli {
+  background-image: url(../image/our-advantages_mebli.jpg);
+}
+
+.item-nadiya {
+  background-image: url(../image/our-advantages_nadiinist.jpg);
+}
+
+.item-dostavka {
+  background-image: url(../image/our-advantages_dostavka.jpg);
+}
+
+.our-advantages__subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  /* identical to box height, or 45px */
+
+  /* greyscale/000 */
+
+  color: #ffffff;
+}
+
+.our-advantages__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  /* or 22px */
+
+  /* greyscale/000 */
+
+  color: #ffffff;
 }
