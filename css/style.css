@@ -208,6 +208,8 @@ img {
   height: 785px;
   margin-bottom: 100px;
   background-image: url(../image/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slider {
